@@ -99,7 +99,7 @@ export default function TextInput(props) {
             <div className="container my-3">
                 <div className="mb-3">
                     <h1>{props.title}</h1>
-                    <textarea className="form-control" id="MyBox" rows="10" value={text} onChange={handlOnChange}></textarea>
+                    <textarea className="form-control" id="MyBox" rows="10" value={text} onChange={handlOnChange} style={{background:"#9cb2c7",border:"1px solid black"}}></textarea>
                 </div>
                 {/* for popup and copy */}
                 <div style={{ position: 'relative' }}>
